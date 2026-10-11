@@ -42,7 +42,7 @@ export const projects: Project[] = [
       "GitHub Actions",
     ],
     source: "https://github.com/hlakokabelo/photos-clone-api",
-    live: "https://photos-clone-api.onrender.com",
+    live: "https://photos-clone-api.onrender.com/api",
     featured: true,
   },
   {
