@@ -2,9 +2,9 @@
 
 Personal portfolio website built with React, TypeScript, Tailwind CSS, and Vite.
 
-[Live site](https://kabelodev.vercel.app)
+🌐 **Live Website:** [View Portfolio](https://kabelodev.vercel.app)
 
-## Stack
+## Tech Stack
 
 - React + Vite
 - TypeScript
