@@ -27,6 +27,25 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    name: "Photos Clone API",
+    tagline: "Java Spring Boot REST API",
+    description:
+      "A REST API for uploading, searching, downloading, and deleting photos, built with Java 21 and Spring Boot 4. Implements JWT authentication with Spring Security and BCrypt password hashing, persists data with Spring Data JDBC on Neon PostgreSQL, and is containerised with Docker. Includes GitHub Actions for Gradle builds and Swagger UI documentation.",
+    stack: [
+      "Java 21",
+      "Spring Boot 4",
+      "Spring Security",
+      "Spring Data JDBC",
+      "PostgreSQL",
+      "Docker",
+      "Gradle",
+      "GitHub Actions",
+    ],
+    source: "https://github.com/hlakokabelo/photos-clone-api",
+    live: "https://photos-clone-api.onrender.com",
+    featured: true,
+  },
+  {
     name: "Trimzo",
     tagline: "Full-stack URL shortener",
     description:
