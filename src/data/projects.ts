@@ -27,22 +27,23 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    name: "Photos Clone API",
-    tagline: "Java Spring Boot REST API",
+    name: "Photos Clone",
+    tagline: "Full-stack photo API with React interface",
     description:
-      "A REST API for uploading, searching, downloading, and deleting photos, built with Java 21 and Spring Boot 4. Implements JWT authentication with Spring Security and BCrypt password hashing, persists data with Spring Data JDBC on Neon PostgreSQL, and is containerised with Docker. Includes GitHub Actions for Gradle builds and Swagger UI documentation.",
+      "A full-stack application built with a Java 21 and Spring Boot 4 REST API, paired with a React and TypeScript frontend. Implements JWT authentication with Spring Security and BCrypt password hashing, persists metadata and binary image data in Neon PostgreSQL via Spring Data JDBC, and is containerised with Docker. Includes GitHub Actions for build verification and OpenAPI documentation via Swagger UI.",
     stack: [
       "Java 21",
       "Spring Boot 4",
       "Spring Security",
       "Spring Data JDBC",
       "PostgreSQL",
+      "React",
+      "TypeScript",
       "Docker",
-      "Gradle",
       "GitHub Actions",
     ],
     source: "https://github.com/hlakokabelo/photos-clone-api",
-    live: "https://photos-clone-api.onrender.com/api",
+    live: "https://photos-clone-gui.vercel.app",
     featured: true,
   },
   {
