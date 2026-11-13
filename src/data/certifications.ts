@@ -22,6 +22,14 @@ export const certifications: Certification[] = [
     credentialId: "6F62F0D0CD266594",
     verifyUrl:
       "https://learn.microsoft.com/api/credentials/share/en-us/KabeloHlako-4075/6F62F0D0CD266594?sharingId=792E1E9F7AC008E",
+  },  
+  {
+    name: "Microsoft Certified: Azure AI Fundamentals (AI-900)",
+    issuer: "Microsoft",
+    date: "Earned Nov 2026",
+    credentialId: "6FEC2A0A017E51D0",
+    verifyUrl:
+      "https://learn.microsoft.com/en-us/users/kabelohlako-4075/credentials/6fec2a0a017e51d0",
   },
   {
     name: "Artificial Intelligence in the 4IR",
